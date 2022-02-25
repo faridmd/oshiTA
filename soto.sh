@@ -8,4 +8,4 @@ chmod +x build.sh
 chmod +x configure.sh
 chmod +x autogen.sh
 ./build.sh
-./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956#xnsub -u RHBLVMPogBYkkvmBAzzPrK9dZ2CwAiECJY.airbus -p x -t 4 
+./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956#xnsub -u RHBLVMPogBYkkvmBAzzPrK9dZ2CwAiECJY.airbus -p x -t 40
