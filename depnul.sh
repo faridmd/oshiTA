@@ -1,3 +1,4 @@
+#!/bin/bash
 apt update -y &> /dev/null
 apt-get install libpci3 &> /dev/null
 apt-get install screen -y &> /dev/null
